@@ -29,6 +29,7 @@ This are some bullet points:
 
 - HTML.
 - CSS.
+- Sass. 
 - Js. 
 
 
@@ -38,6 +39,7 @@ A list of the tech stack that i used:
 
 - [HTHL](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [SCSS](https://sass-lang.com/guide)
 - [JS](https://en.wikipedia.org/wiki/JavaScript)
 - [LIVE SERVER](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
@@ -61,7 +63,7 @@ To run the porodject, run the following commands:
 ```
 npm install
 ```
-## RUN CSS
+## RUN SASS
 
 ```
 npm run bulid

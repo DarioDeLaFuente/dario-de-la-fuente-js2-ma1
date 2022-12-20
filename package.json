@@ -1,0 +1,29 @@
+{
+  "name": "js2-ma1",
+  "version": "0.0.1",
+  "description": "js2 Module Assignment and use only plain JavaScript for this MA.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarioDeLaFuente/dario-de-la-fuente-js2-ma1.git"
+  },
+  "keywords": [
+    "js",
+    "sass"
+  ],
+  "author": "Dario De La Fuente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarioDeLaFuente/dario-de-la-fuente-js2-ma1/issues"
+  },
+  "homepage": "https://github.com/DarioDeLaFuente/dario-de-la-fuente-js2-ma1#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.57.1"
+  }
+}
