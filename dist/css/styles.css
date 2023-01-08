@@ -1,5 +1,103 @@
-body {
-  background-color: black;
+.error-indicator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.error-results {
+  text-align: center;
+  color: red;
+}
+
+.error-message-results {
+  text-align: center;
+}
+
+.error-conteiner {
+  width: 30%;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: solid red;
+}
+
+.loading-indicator {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: #3498db;
+  text-align: center;
+}
+
+.loading-indicator::before {
+  content: "Loading";
+  animation: pulse 1s infinite, rotate 1s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+    transform: rotate(360deg);
+  }
+}
+.api-output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-list-results {
+  text-align: center;
+}
+
+.product {
+  width: 30%;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-price {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+@media (max-width: 800px) {
+  .product {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .product {
+    width: 100%;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+label[for=search-product-price] {
+  font-size: 25px;
+  color: #333;
+  margin: 5px;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=styles.css.map */
