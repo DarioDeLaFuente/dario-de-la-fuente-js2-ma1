@@ -8,8 +8,20 @@
     <link rel="stylesheet" href="/dist/css/styles.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <div class="container">
+        <label for="search-product-price">search product price</label>
+        <input type="number" class="price-filter" name="search" min="1" max="1000" />
+      </div>
+    </header>
+    <main>
+      <div class="loading-indicator"></div>
+      <div class="error-indicator"></div>
+      <div class="api-output"></div>
+    </main>
+    <footer>
+      <div class="container">@Dario De La Fuente</div>
+    </footer>
+    <script src="js/script.js" type="module"></script>
   </body>
 </html>

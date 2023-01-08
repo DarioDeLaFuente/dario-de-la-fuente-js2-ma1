@@ -1,0 +1,21 @@
+.error-indicator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.error-results {
+  text-align: center;
+  color: red;
+}
+.error-message-results {
+  text-align: center;
+}
+
+.error-conteiner {
+  width: 30%;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: solid red;
+}

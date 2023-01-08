@@ -1,0 +1,38 @@
+.api-output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-list-results {
+  text-align: center;
+}
+
+.product {
+  width: 30%;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-price {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+@media (max-width: 800px) {
+  .product {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .product {
+    width: 100%;
+  }
+}

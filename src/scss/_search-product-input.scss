@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+label[for="search-product-price"] {
+  font-size: 25px;
+  color: #333;
+  margin: 5px;
+  text-transform: capitalize;
+}
